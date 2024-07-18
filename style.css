@@ -15,12 +15,13 @@ body {
 }
 
 /* Navbar */
-
+.menu-logo {
+  display: none;
+}
 .nav-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid rebeccapurple;
 }
 .logo {
   font-weight: 800;
@@ -64,6 +65,7 @@ body {
   font-weight: 600;
   cursor: pointer;
 }
+
 /* Header */
 .header {
   /* border: 1px solid red; */
@@ -75,8 +77,8 @@ body {
   margin-top: 0;
   background: linear-gradient(
     200deg,
-    rgb(17, 17, 17),
-    rgba(119, 119, 119, 0.096) 100%
+    rgb(70, 70, 70),
+    rgba(71, 71, 71, 0.096) 100%
   );
 }
 .header-text {
@@ -113,10 +115,12 @@ body {
   margin: 28px 0px;
   font-size: 16px;
   font-weight: 400;
-  width: 520px;
+  width: 27.37%;
   color: rgba(255, 255, 255, 0.5);
 }
-
+.header-text-dec2 {
+  display: none;
+}
 /* header btn */
 .header-btn {
   width: 460px;
@@ -156,7 +160,6 @@ body {
 }
 /* header pic and cards */
 .header-pic {
-  position: absolute;
   right: 100px;
   height: 580px;
   width: 349px;
@@ -227,4 +230,132 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 576px);
+@media screen and (max-width: 576px) {
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+    color: rgb(230, 83, 60);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: -25px;
+  }
+  .menu-logo {
+    display: block;
+    color: #ffffff;
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+    margin-right: -30px;
+    scale: 150%;
+    cursor: pointer;
+  }
+  .nav-options {
+    display: none;
+  }
+
+  /* Header */
+  .header {
+    /* border: 1px solid red; */
+
+    position: absolute;
+    overflow: hidden; /* HVER FLOW HIDDEN */
+    width: 100%;
+    height: 1030px;
+    margin: 0 auto;
+    margin-top: 0%;
+    background: linear-gradient(
+      180deg,
+      rgb(70, 70, 70),
+      rgba(71, 71, 71, 0.096) 100%
+    );
+    position: relative;
+  }
+  .header-text {
+    width: 100%;
+    font-size: 2.6rem;
+    margin: 14px 0;
+  }
+  .main-text {
+    margin-left: 0;
+    padding: 0 15px;
+  }
+  .shape {
+    font-size: 5.5rem;
+  }
+  .header-text-dec {
+    display: none;
+  }
+  .header-text-dec2 {
+    display: block;
+    /* border: 1px solid red; */
+    overflow: v;
+    width: 300px;
+    height: 60px;
+    text-wrap: wrap;
+    font-size: 1.2rem;
+    margin: 14px 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  /* header btn */
+  .header-btn {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+  }
+
+  .join,
+  .download-btn {
+    width: 169px;
+    height: 54px;
+    font-size: 16px;
+    padding: 18px 20px;
+    justify-content: space-between;
+  }
+  .header-pic {
+    position: relative;
+    left: 5%;
+    scale: 100%;
+    top: 8px;
+  }
+  /* header cards */
+  .video-card {
+    display: flex;
+    justify-content: center;
+    background: rgba(48, 48, 48, 0.54);
+    align-items: center;
+    position: absolute;
+    scale: 80%;
+    border-radius: 12px;
+    left: 45%;
+    top: 520px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  .tutorial-card {
+    display: flex;
+    justify-content: center;
+    background: rgba(48, 48, 48, 0.54);
+    align-items: center;
+    position: absolute;
+    scale: 72%;
+    border-radius: 12px;
+    left: -4%;
+    top: 740px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
