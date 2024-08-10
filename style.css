@@ -9,7 +9,7 @@ body {
   color: #ffffff;
 }
 body p {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.308);
 }
 .container {
   width: 80%;
@@ -289,15 +289,72 @@ body p {
   font-size: 14px;
   font-weight: 400;
 }
+
+/*/////////////////// Run an Extra Mile ~~~~~~~~~~~~~~~~*/
+
 .Extra {
-  border: 2px solid rgb(255, 251, 0);
+  border: 2px solid transparent;
   height: 371px;
   width: 1644px;
+  border-radius: 20px;
+
+  background-color: #222222;
   position: relative;
   top: 800px;
   margin: 0 auto;
 }
+.extra-left {
+  width: 443px;
+  height: 208px;
+}
+.extra-txt {
+  width: 443px;
+  height: 201px;
+}
+.extra-txt h2 {
+  font-weight: 900;
+  font-size: 48px;
+  margin-left: 55px;
+  margin-top: 40px;
+}
+.extra-left p {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  margin-left: 55px;
+  margin-top: 8px;
+}
+.joinp {
+  margin-left: 55px;
+  margin-top: 32px;
 
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+  border-radius: 46px;
+  background-color: rgb(230, 83, 60);
+  cursor: pointer;
+}
+.extra-right {
+  position: relative;
+  top: -60%;
+  left: 1230px;
+  border: 1px solid rgb(117, 117, 117);
+  height: 312px;
+  width: 366px;
+  border-radius: 18px;
+  background-image: url(ruun.jpg);
+  background-position: center;
+  background-size: cover;
+}
 @media screen and (max-width: 576px) {
   .nav-bar {
     display: flex;
@@ -395,6 +452,9 @@ body p {
     padding: 18px 20px;
     justify-content: space-between;
   }
+  /* .join {
+    margin-bottom: 28px;
+  } */
   .header-pic {
     position: relative;
     left: 5%;
@@ -466,6 +526,44 @@ body p {
     margin-bottom: 0px;
   }
   .Extra {
-    display: none;
+    width: 353px;
+    height: 520px;
+    margin: 0 auto;
+    margin-top: -880px;
+  }
+  .extra-left {
+    width: 287px;
+    height: 300px;
+  }
+  .joinp {
+    width: 258px;
+    margin-top: -810px;
+    margin-left: 36px;
+  }
+  .extra-txt h2 {
+    font-weight: 900;
+    font-size: 32px;
+    margin-left: 35px;
+    margin-top: 40px;
+    text-align: left;
+  }
+  .extra-left p {
+    font-size: 14px;
+    width: 287px;
+    color: rgba(255, 255, 255, 0.404);
+    height: 96px;
+    margin-left: 32px;
+  }
+  .extra-right {
+    position: relative;
+    top: -30px;
+    left: 40px;
+    border: 1px solid rgb(117, 117, 117);
+    height: 170px;
+    width: 258px;
+    border-radius: 18px;
+    background-image: url(run.jpg);
+    background-position: center;
+    background-size: contain;
   }
 }
