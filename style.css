@@ -355,6 +355,148 @@ body p {
   background-position: center;
   background-size: cover;
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BMI */
+.bmi {
+  border: 1px solid transparent;
+  position: relative;
+  top: 900px;
+  width: 680px;
+  height: 119px;
+  text-align: left;
+  margin: 0 auto;
+}
+.bmi h2 {
+  font-weight: 900;
+  font-size: 48px;
+  width: 353px;
+  margin-left: 18px;
+  margin-bottom: 8px;
+}
+.bmi p {
+  font-weight: 400;
+  font-size: 14px;
+  margin-left: 18px;
+  letter-spacing: 0.3px;
+  width: 671px;
+}
+/* ~~~~~~~~~~~~Bmi cal */
+.bmi-cal {
+  border: 1px solid transparent;
+  width: 99%;
+  height: 487px;
+  position: relative;
+  top: 1000px;
+  margin: 0 auto;
+}
+
+.bmi-cal {
+  background-color: rgb(34, 34, 34);
+}
+/*```````````````````````````````````````````left bm*/
+.left-bm {
+  margin-top: 80px;
+  margin-left: 250px;
+}
+.left-bm h2 {
+  font-size: 28px;
+  font-weight: 900;
+}
+table {
+  width: 300px;
+  border-collapse: collapse;
+  color: #ffffff;
+  margin-top: 40px;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background-color: #222222;
+  text-align: left;
+  padding: 10px;
+}
+tr:nth-child(even) td {
+  background-color: #222222;
+}
+td {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~left bm end*/
+/* `````````````````````````````````````````Right bm */
+.right-bm {
+  border: 1px solid transparent;
+  height: 390px;
+  width: 640px;
+  position: relative;
+  top: -280px;
+  left: 1000px;
+}
+.bmr-txt h2 {
+  margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 28px;
+}
+.bmr-txt p {
+  /* margin-bottom: 20px; */
+  font-weight: 400;
+  font-size: 14px;
+}
+.bm-input {
+  margin-top: 25px;
+}
+
+.m {
+  width: 284px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+  border: none;
+}
+.kg,
+.sex {
+  margin-left: 18px;
+}
+.sex,
+.age {
+  margin-top: 16px;
+}
+.n {
+  width: 94%;
+  height: 52px;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+  border: none;
+  margin-top: 20px;
+}
+.cal-btn {
+  background-color: rgb(230, 83, 60);
+  width: 224px;
+  height: 54px;
+  border-radius: 42px;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  margin-top: 25px;
+  cursor: pointer;
+}
+.drop {
+  position: relative;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  left: -20px;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~end of right bm */
 @media screen and (max-width: 576px) {
   .nav-bar {
     display: flex;
@@ -566,4 +708,119 @@ body p {
     background-position: center;
     background-size: contain;
   }
+
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~BMI */
+  .bmi {
+    border: 1px solid transparent;
+    position: relative;
+    top: 900px;
+    left: -50px;
+    width: 353px;
+    height: 124px;
+    scale: 80%;
+    margin: 0 auto;
+  }
+  .bmi p {
+    font-size: 15px;
+    width: 360px;
+  }
+  /* ~~~~~~~~~~~~Bmi cal */
+
+  .bmi-cal {
+    height: 900px;
+    background-color: rgb(34, 34, 34);
+  }
+  /*```````````````````````````````````````````left bm*/
+  .left-bm {
+    border: 1px solid transparent;
+    margin-top: 30px;
+    margin-left: 65px;
+  }
+  .left-bm h2 {
+    font-size: 18px;
+    font-weight: 900;
+  }
+  table {
+    height: 300px;
+
+    margin-top: 30px;
+  }
+
+  td {
+    font-size: 12px;
+  }
+  /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~left bm end*/
+  /* `````````````````````````````````````````Right bm */
+  .right-bm {
+    border: 1px solid transparent;
+    height: 400;
+    width: 354px;
+    position: relative;
+    top: 100px;
+    left: 10px;
+  }
+  .bmr-txt h2 {
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 20px;
+  }
+  .bmr-txt p {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .bm-input {
+    margin-top: 25px;
+  }
+
+  .m {
+    width: 170.5px;
+    height: 48px;
+
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .kg {
+    margin-left: 18px;
+    position: relative;
+    top: -50px;
+    left: 200px;
+  }
+  .sex {
+    position: relative;
+    top: -60px;
+    left: 200px;
+  }
+
+  .age,
+  .sex {
+    margin-top: -60px;
+  }
+  .age {
+    position: relative;
+    top: -20px;
+  }
+  .n {
+    width: 108%;
+    position: relative;
+    top: -20px;
+    margin-top: -40px;
+  }
+  .cal-btn {
+    position: relative;
+    top: -40px;
+  }
+  .drop {
+    position: relative;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    left: 175px;
+    top: -60px;
+  }
+  .bop {
+    position: relative;
+    left: 355px;
+    top: -60px;
+  }
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~end of right bm */
 }
