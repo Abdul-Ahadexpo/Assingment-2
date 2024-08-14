@@ -535,6 +535,27 @@ td {
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Meet team ends */
+
+/* `````````````````````````````````````````Footer */
+.fot {
+  border: 1px solid transparent;
+
+  display: block;
+  position: relative;
+  top: 1180px;
+  width: 1440px;
+  margin: 0 auto;
+}
+.fim {
+  width: 99.9%;
+  /* border: 25px;
+  overflow: hidden; */
+  height: 489px;
+}
+.fot-ml {
+  display: none;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer ends */
 @media screen and (max-width: 576px) {
   .nav-bar {
     display: flex;
@@ -886,6 +907,7 @@ td {
 
     border: 1px solid transparent;
   }
+
   /* .ml-pic {
     display: block;
   }
@@ -914,4 +936,17 @@ td {
     background-position: center;
     background-size: contain;
   } */
+
+  /* `````````````````````````````````````````Footer */
+  .fot {
+    display: none;
+  }
+  .fot-ml {
+    display: block;
+    position: relative;
+    top: 1200px;
+    width: 393px;
+    margin: 0 auto;
+  }
+  /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer ends */
 }
